@@ -4,11 +4,11 @@ Proxidize Android Legacy is an Android application that enables anyone to make 4
 
 Proxidize created Proxidize Android as a proof of concept for Proxidize MPM (Mobile Proxy Maker). The app accomplished its purpose, but was eventually taken down from the Google Play Store for reasons mentioned below.
 
-With the rise of Russian & Chinese Proxidize MPM copycat apps, and after seeing the damage these can cause to the community of proxy users with the recent scandal, we decided to open source this app to protect the users from falling prey to any botnet apps. Further read: [Proxidize copycats, a story of greed & international crim syndicates](https://proxidize.com/blog/proxidize-copycats-a-story-of-greed-international-crime-syndicates/)
+With the rise of Russian & Chinese Proxidize MPM copycat apps, and after seeing the damage these can cause to the community of proxy users with the recent scandal, we decided to open source this app to protect the users from falling prey to any botnet apps. Further read: [Proxidize copycats, a story of greed & international crime syndicates](https://proxidize.com/blog/proxidize-copycats-a-story-of-greed-international-crime-syndicates/?utm_source=github.com&utm_medium=link&utm_campaign=proxidize-android-github)
 
 Proxidize Android Legacy is the predecessor of the upcoming Proxidize Portable application which will solve all the shortcomings of this app.
 
-**IMPORTANT:** Proxidize Android was marked as a false positive Potentially Unwanted App (PUP) due to it containing a tunneling client. You can read more about this below and find the instructions to build the app from scratch.
+**IMPORTANT:** Proxidize Android was marked as a false positive Potentially Unwanted App (PUP) or Riskware due to it containing a local proxy server. This is nothing to worry about, but you can read more about this below and find the instructions to build the app from scratch.
 
 
 <div align="center"> </br><a href="https://github.com/proxidize/proxidize-android/releases/download/APK/proxidize-android.apk">
@@ -27,12 +27,10 @@ Proxidize Android Legacy is the predecessor of the upcoming Proxidize Portable a
 
 ## What Is Proxidize?
 
-Proxidize is a multi-national effort started by a team of engineers to democratize access to web data & automation. We are currently in phase #1 which is building the proxy infrastructure required to build the full project.
-
-Read the Proxidize manifesto: https://proxidize.com/manifesto/
+Proxidize is a multi-national effort started by a team of engineers to democratize access to proxies, web data, & automation. [Read the Proxidize manifesto](https://proxidize.com/manifesto/?utm_source=github.com&utm_medium=link&utm_campaign=proxidize-android-github)
 
 
-<div align="center"> <a href="https://proxidize.com/">
+<div align="center"> <a href="https://proxidize.com/?utm_source=github.com&utm_medium=link&utm_campaign=proxidize-android-github">
     <img src="https://i.imgur.com/3FEWrk5.png" height="auto"/>
   </a>
 </div>
@@ -43,11 +41,11 @@ Read the Proxidize manifesto: https://proxidize.com/manifesto/
   <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
   <a href="#rotationchanging-the-ip-how-to-change-mobile-proxy-ip-address-using-airplane-mode">IP Rotation</a>
   <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-  <a href="https://proxidize.com/">Website</a>
+  <a href="https://proxidize.com/?utm_source=github.com&utm_medium=link&utm_campaign=proxidize-android-github">Website</a>
   <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-  <a href="https://proxidize.com/docs">Docs</a>
+  <a href="https://proxidize.com/docs/?utm_source=github.com&utm_medium=link&utm_campaign=proxidize-android-github">Docs</a>
   <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-  <a href="https://proxidize.com/blog">Blog</a>
+  <a href="https://proxidize.com/blog/?utm_source=github.com&utm_medium=link&utm_campaign=proxidize-android-github">Blog</a>
   <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
   <a href="https://twitter.com/proxidizehq">Twitter</a>
   <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
@@ -77,8 +75,6 @@ Read the Proxidize manifesto: https://proxidize.com/manifesto/
   * [FAQ](#faq)
   * [Credits](#credits)
   * [Proxidize Portable](#proxidize-portable)
-  * [License](#license)
-
 
 
 ---
@@ -350,7 +346,8 @@ The app uses reverse proxies created via websockets route to forwarding facing p
 
 The Proxidize team is working on an entirely new app called **Proxidize Portable**, which will address all the short comings of this app using proprietary technology.
 
-Another thing is such apps send both incoming and outgoing traffic from the same device, which means you will always get half the speed that you would normally get when testing the speed directly on your phone. If speed is important, you should use the full Proxidize MPM-OP: https://proxidize.com/
+Another thing is such apps send both incoming and outgoing traffic from the same device, which means you will always get half the speed that you would normally get when testing the speed directly on your phone. If speed is important, you should use the full [Proxidize Mobile Proxy Maker](https://proxidize.com/?utm_source=github.com&utm_medium=link&utm_campaign=proxidize-android-github)
+
 
 ### Where will this app work?
 
@@ -392,19 +389,3 @@ We are currently working on a new application called "Proxidize MPM-Cloud Portab
 12. Load-balancing between multiple phones.
 13. Setting multi-phone IP rotation pools.
 14. And more. Feel free to request anything else.
-
----
-
-## License
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
