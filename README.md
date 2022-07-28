@@ -37,7 +37,7 @@ Proxidize is a multi-national effort started by a team of engineers to democrati
 
 <div align="center">
   <h2>Proxidize</h2>
-  <a href="#installing-proxidize-android-legacy">Create Mobile Proxies</a>
+  <a href="#how-to-create-a-diy-4g-mobile-proxy-farm-using-android-phones">Create Mobile Proxies</a>
   <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
   <a href="#rotationchanging-the-ip-how-to-change-mobile-proxy-ip-address-using-airplane-mode">IP Rotation</a>
   <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
@@ -64,7 +64,7 @@ Proxidize is a multi-national effort started by a team of engineers to democrati
   * [Features of Proxidize Android Legacy](#features-of-proxidize-android-legacy)
   * [How It Works & Architecture](#how-it-works--architecture)
   * [Proxidize Android Legacy vs Proxidize Mobile Proxy Maker](#proxidize-android-legacy-vs-proxidize-mobile-proxy-maker)
-  * [Installing Proxidize Android Legacy](#installing-proxidize-android-legacy)
+  * [Installing Proxidize Android Legacy](#how-to-create-a-diy-4g-mobile-proxy-farm-using-android-phones)
   * [Using the Proxy](#using-the-proxy)
   * [Rotation/Changing the IP (How to Change Mobile Proxy IP Address Using Airplane Mode)](#rotationchanging-the-ip-how-to-change-mobile-proxy-ip-address-using-airplane-mode)
   * [Supported Android Versions & Devices](#supported-android-versions--devices)
@@ -109,25 +109,16 @@ This app is not a replacement for Proxidize Mobile Proxy Maker, but a proof of c
 
 ---
 
-## Installing Proxidize Android Legacy
+## How to Create a DIY 4G Mobile Proxy Farm Using Android Phones
+
+To build your own 4G proxy farm, all you need is:
+
+- Open this page on your phone so you don't have to transfer files https://github.com/proxidize/proxidize-android
+- Download the APK using the link https://github.com/proxidize/proxidize-android/releases/download/APK/proxidize-android.apk
+- Install the APK on your phone, open the app and press "CONNECT".
+- Copy the proxy to clipboard and use it anywhere.
 
 ![example](https://i.imgur.com/SOkvQjQ.jpg)
-
-### How to use on Android: (Create 5G or 4G Mobile Proxies on Android)
-
-- Download Proxidize Android Legacy APK File
-- Install the APK on your device
-- Open the app and press "Connect".
-- Copy the proxy and you can use it anywhere.
-
-
-### How to Use on Windows MacOS (Create 5G or 4G Mobile Proxies on Windows)
-
-- Download any Android emulator such as BlueStacks
-- Download Proxidize Android Legacy APK file inside the emulator (Open this page from the emulator and download the APK)
-- Install the APK on your device
-- Open the app and press "Connect".
-- Copy the proxy and you can use it anywhere.
 
 ---
 
@@ -309,11 +300,11 @@ Changes I'll be adding:
 - [ ] Traffic counters.
 - [ ] SOCKS proxies.
 
-If you want to add a new feature, please create an issue first to describe the new feature, as well as the implementation approach. Once a proposal is accepted, create an implementation of the new features and submit it as a pull request. The Go binaries are compiled with ```gomobile``` using FRP.
+If you want to add a new feature, please create an issue first to describe the new feature, as well as the implementation approach. Once a proposal is accepted, create an implementation of the new features and submit it as a pull request.
 
 ### Building
 
-In order to build all the binaries from scratch, you'll need to
+In order to build all the binaries from scratch, you'll need to:
 - Build frpc (the tunneling client) following the guide in ```https://github.com/FrpcCluster/frpc-Android/blob/master/Compile_zh.md```
 - Build frps (the tunneling server) following the guide in ```https://github.com/fatedier/frp```
 - Update the binaries in this repo, the server in ```./server/server``` & client in ```./app/libs/connlib.aar```
