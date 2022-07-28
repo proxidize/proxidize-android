@@ -8,8 +8,10 @@ With the rise of Russian & Chinese Proxidize MPM copycat apps, and after seeing 
 
 Proxidize Android Legacy is the predecessor of the upcoming Proxidize Portable application which will solve all the shortcomings of this app.
 
+**IMPORTANT:** Proxidize Android was marked as a false positive Potentially Unwanted App (PUP) due to it containing a tunneling client. You can read more about this below and find the instructions to build the app from scratch.
 
-<div align="center"> </br><a href="https://proxidize.com/">
+
+<div align="center"> </br><a href="https://github.com/proxidize/proxidize-android/releases/download/APK/proxidize-android.apk">
     <img src="https://i.imgur.com/HkPj7Fx.png" height="auto"/>
   </a>
 </br></br></br></div>
@@ -290,7 +292,7 @@ In some cases, you might be able to connect directly to the phone without needin
 - I'm using vanilla puppeteer or Chrome and I keep getting blocked or my proxy is detected.
 - Any form of 407/authentication error. This means you're not using the right credentials. Refer to format section.
 - 502 or 504 if you're using rotation. This happens when you're connecting in the middle of a rotation.
-- Any situation where you're using your own server. (Unless you can replicate the issue when using the default server as well.)
+- Any situation where you're using your own server — unless you can replicate the issue when using the default server as well.
 
 
 ---
@@ -298,7 +300,7 @@ In some cases, you might be able to connect directly to the phone without needin
 
 This app is no longer maintained by Proxidize, but I (Abed) will be working on it in my free time.
 
-Things I'll be adding:
+Changes I'll be adding:
 
 - [x] Supporting Android 12
 - [x] Add Android wake lock to keep the proxy alive if the screen if off.
@@ -313,10 +315,18 @@ Things I'll be adding:
 
 If you want to add a new feature, please create an issue first to describe the new feature, as well as the implementation approach. Once a proposal is accepted, create an implementation of the new features and submit it as a pull request. The Go binaries are compiled with ```gomobile``` using FRP.
 
+### Building
+
+In order to build all the binaries from scratch, you'll need to
+- Build frpc (the tunneling client) following the guide in ```https://github.com/FrpcCluster/frpc-Android/blob/master/Compile_zh.md```
+- Build frps (the tunneling server) following the guide in ```https://github.com/fatedier/frp```
+- Update the binaries in this repo, the server in ```./server/server``` & client in ```./app/libs/connlib.aar```
+- Build Android android apk following standard Android build.
+
 ---
 
 
-## FAQ:
+## FAQ
 
 ### Why is the app marked as harmful app/malware by Google?
 
@@ -328,7 +338,7 @@ I've made some mitigations against this by changing the binaries to change the h
 
 ### My proxy isn't working with ```Proxy Refusing Connection``` error?
 
-Please exit the app and start it again. There's a very small chance you used an already used port.
+Exit the app and start it again. There's a very small chance you used an already used port.
 
 ### My proxy stopped working after it used to work, can you help?
 
@@ -357,9 +367,9 @@ Make sure you're not mixing the small ```l``` with a capital ```I```.
 ## Credits
 
 Proxidize Android Legacy Credits
-- Unni from the Proxidize team for creating the Android tunneling client
+- Unni from the Proxidize team for compiling the Android tunneling client
 - Muhammad from the Proxidize team for the interface & battery optimization
-- Frp Tunneling Server
+- Frp contributors
 - The Squid Foundation
 
 ---
