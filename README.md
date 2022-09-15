@@ -10,7 +10,7 @@ Proxidize Android Legacy is the predecessor of the upcoming Proxidize Portable a
 
 ![Overview](https://i.imgur.com/gsRoRBt.png)
 
-<div align="center"> </br><a href="https://proxidize.com/android">
+<div align="center"> </br><a href="https://github.com/proxidize/proxidize-android/releases/download/v2.0.0/proxidize-android-legacy-v2.0.0.apk">
     <img src="https://i.imgur.com/HkPj7Fx.png" height="auto"/>
   </a>
 </br></br></br></div>
