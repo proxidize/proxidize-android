@@ -4,13 +4,13 @@ Proxidize Android Legacy is an Android application that enables anyone to make 4
 
 Proxidize created Proxidize Android as a proof of concept for Proxidize MPM (Mobile Proxy Maker). The app accomplished its purpose, but was eventually taken down from the Google Play Store for reasons mentioned below.
 
-With the rise of Russian & Chinese Proxidize MPM copycat apps, and after seeing the damage these can cause to the community of proxy users with the recent scandal, we decided to open source this app to protect the users from falling prey to any botnet apps. Further read: [Proxidize copycats, a story of greed & international crime syndicates](https://proxidize.com/blog/proxidize-copycats-a-story-of-greed-international-crime-syndicates/)
-
 Proxidize Android Legacy is the predecessor of the upcoming Proxidize Portable application which will be a drastic improvement on this app.
+
+Read this page in other languages: [русский](https://github.com/proxidize/proxidize-android/blob/main/README.ru.md)
 
 ![Overview](https://i.imgur.com/gsRoRBt.png)
 
-<div align="center"> </br><a href="https://github.com/proxidize/proxidize-android/releases/download/v2.0.0/proxidize-android-legacy-v2.0.0.apk">
+<div align="center"> </br><a href="https://github.com/proxidize/proxidize-android/releases/download/v2.1.0/proxidize-android-legacy-v2.1.0.apk">
     <img src="https://i.imgur.com/HkPj7Fx.png" height="auto"/>
   </a>
 </br></br></br></div>
