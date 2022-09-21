@@ -8,7 +8,7 @@ Proxidize Android Legacy - это преддшественник грядуще�
 
 ![Overview](https://i.imgur.com/gsRoRBt.png)
 
-<div align="center"> </br><a href="https://github.com/proxidize/proxidize-android/releases/download/v2.0.0/proxidize-android-legacy-v2.0.0.apk">
+<div align="center"> </br><a href="https://github.com/proxidize/proxidize-android/releases/download/v2.1.0/proxidize-android-legacy-v2.1.0.apk">
     <img src="https://i.imgur.com/HkPj7Fx.png" height="auto"/>
   </a>
 </br></br></br></div>
