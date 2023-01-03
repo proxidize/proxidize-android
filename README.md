@@ -263,9 +263,13 @@ Proxidize Android Legacy allows you to deploy your own tunneling server to avoid
 
 ``` git clone https://github.com/proxidize/proxidize-android.git  ```
 
+- Enter the repo directory
+
+``` cd ./proxidize-android  ```
+
 - Edit the server.ini file to add an authentication token
 
-``` vi``` or ```nano ./server.ini ```
+``` vi``` or ```nano ./server/server.ini ```
 
 - Add the following info, replacing ```PORT``` and ```TOKEN``` with your own values. Keep the port value as ```2000``` unless you have a reason to change it.
 
@@ -280,7 +284,7 @@ token = TOKEN
 
 - Start the server
 
-``` setsid ./server -c ./server.ini &```
+``` setsid ./server/server -c ./server/server.ini &```
 
 ```setsid``` is used to keep the process alive after you close the terminal.
 
