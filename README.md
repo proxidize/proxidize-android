@@ -10,7 +10,7 @@ Read this page in other languages: [русский](https://github.com/proxidize
 
 ![Overview](https://i.imgur.com/gsRoRBt.png)
 
-<div align="center"> </br><a href="https://github.com/proxidize/proxidize-android/releases/download/v2.1.1/Proxidize.Android.Legacy.v2.1.1.apk">
+<div align="center"> </br><a href="https://github.com/proxidize/proxidize-android/releases/download/v2.1.2/Proxidize.Android.2.1.2.apk">
     <img src="https://i.imgur.com/HkPj7Fx.png" height="auto"/>
   </a>
 </br></br></br></div>
