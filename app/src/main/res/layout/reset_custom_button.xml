@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.button.MaterialButton android:id="@+id/menu"
+    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:text="Reset Defaults"
+    android:textColor="@color/black"
+    android:backgroundTint="@color/colorPrimaryDark"
+    android:textSize="15sp"
+    app:cornerRadius="20dp"
+    app:elevation="20dp"
+    android:layout_marginTop="20dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+</com.google.android.material.button.MaterialButton>
