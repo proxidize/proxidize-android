@@ -282,6 +282,11 @@ token = TOKEN
 
 ```TOKEN``` is used to authenticate which clients are allowed to connect to this server. It can be any random set of characters such as ```12345678```.
 
+- Fix the permissions of the folder and files for server
+```
+sudo chmod -R 755 ./server
+```
+
 - Start the server
 
 ``` setsid ./server/server -c ./server/server.ini &```
