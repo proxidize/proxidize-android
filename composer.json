@@ -1,0 +1,25 @@
+{
+  "name": "sergeykomlev/proxidize-android",
+  "description": "Proxidize Android is an Android application that allows anyone to create a 5G or 4G mobile proxy using their phone.",
+  "authors": [
+    {
+      "name": "Proxidize",
+      "homepage": "https://proxidize.com",
+      "role": "Developer"
+    },
+    {
+      "name": "Sergey Komlev",
+      "homepage": "https://sergeykomlev.com",
+      "role": "Developer"
+    }
+  ],
+  "license": "Proxidize",
+  "keywords": [
+    "proxy",
+    "mobile",
+    "lte",
+    "4g",
+    "5g",
+    "proxidize"
+  ]
+}
