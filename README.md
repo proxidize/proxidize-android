@@ -1,19 +1,17 @@
 # Proxidize Android: Create 5G/4G Mobile Proxy Farms on Android Phones
 
+
+*** PLEASE NOTE: This app has been archived as we've released the all-new Proxidize Android available for free at https://proxidize.com/android -- This repo will be updated shortly. ***
+
 Proxidize Android Legacy is an Android application that enables anyone to make 4G or 5G mobile proxy farms using their Android phones without the need of anything else. Just download the app, hit connect, and your mobile proxy will be automatically generated.
 
 Proxidize created Proxidize Android as a proof of concept for Proxidize MPM (Mobile Proxy Maker). The app accomplished its purpose, but was eventually taken down from the Google Play Store for reasons mentioned below.
 
 Proxidize Android Legacy is the predecessor of the upcoming Proxidize Portable application which will be a drastic improvement on this app.
 
-Read this page in other languages: [русский](https://github.com/proxidize/proxidize-android/blob/main/README.ru.md)
 
 ![Overview](https://i.imgur.com/gsRoRBt.png)
 
-<div align="center"> </br><a href="https://github.com/proxidize/proxidize-android/releases/download/v2.1.6/app-release.apk">
-    <img src="https://i.imgur.com/HkPj7Fx.png" height="auto"/>
-  </a>
-</br></br></br></div>
 
 </div>
 
